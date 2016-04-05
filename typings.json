@@ -2,7 +2,7 @@
   "name": "electron",
   "main": "index.d.ts",
   "homepage": "https://github.com/electron/electron",
-  "version": "",
+  "version": "0.37.4",
   "devDependencies": {
     "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
   },
