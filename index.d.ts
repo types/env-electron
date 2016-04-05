@@ -4227,6 +4227,7 @@ interface NodeRequireFunction {
 	(moduleName: 'electron'): Electron.ElectronMainAndRenderer;
 }
 
-
-declare var electron: Electron.ElectronMainAndRenderer;
-export = electron;
+declare module 'electron' {
+  var electron: Electron.ElectronMainAndRenderer;
+  export = electron;
+}
