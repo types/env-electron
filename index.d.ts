@@ -1,10 +1,3 @@
-// Type definitions for Electron v0.37.4
-// Project: http://electron.atom.io/
-// Definitions by: jedmao <https://github.com/jedmao/>, rhysd <https://rhysd.github.io>, Milan Burda <https://github.com/miniak/>
-// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
-
-/// <reference path="../node/node.d.ts" />
-
 declare namespace Electron {
 
 	class EventEmitter implements NodeJS.EventEmitter {
