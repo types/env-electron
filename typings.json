@@ -7,9 +7,6 @@
   "devDependencies": {
     "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
   },
-  "ambientDevDependencies": {
-    "node": "registry:dt/node#4.0.0+20160319033040"
-  },
   "ambientDependencies": {
     "node": "registry:dt/node#4.0.0+20160330064709"
   }
