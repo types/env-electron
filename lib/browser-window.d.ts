@@ -678,7 +678,7 @@ declare namespace Electron {
 		/**
 		 * Whether to throttle animations and timers when the page becomes background.
 		 * Default: true
-		*/
+		 */
 		backgroundThrottling?: boolean;
 	}
 
@@ -830,7 +830,7 @@ declare namespace Electron {
 		enableLargerThanScreen?: boolean;
 		/**
 		 * Window’s background color as Hexadecimal value, like #66CD00 or #FFF or #80FFFFFF (alpha is supported).
-		 * Default: #000 (black) for Linux and Windows, #FFF for Mac (or clear if transparent).
+		 * Default: #FFF (white).
 		 */
 		backgroundColor?: string;
 		/**

@@ -14,7 +14,7 @@ declare namespace Electron {
 		 * This event is like did-finish-load but emitted when the load failed or was cancelled,
 		 * e.g. window.stop() is invoked.
 		 */
-		on(event: 'did-fail-load', listener: (event: Event, errorCode: number, errorDescription: string, validatedURL: string) => void): this;
+		on(event: 'did-fail-load', listener: (event: Event, errorCode: number, errorDescription: string, validatedURL: string, isMainFrame: boolean) => void): this;
 		/**
 		 * Emitted when a frame has done navigation.
 		 */
@@ -38,7 +38,8 @@ declare namespace Electron {
 			httpResponseCode: number,
 			requestMethod: string,
 			referrer: string,
-			headers: any
+			headers: any,
+			resourceType: string
 		) => void): this;
 		/**
 		 * Emitted when a redirect is received while requesting a resource.
