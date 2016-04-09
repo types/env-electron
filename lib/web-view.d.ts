@@ -425,7 +425,7 @@ declare namespace Electron {
 
 		interface LoadCommitEvent extends Event  {
 			url: string;
-			isMainFrame: string;
+			isMainFrame: boolean;
 		}
 
 		interface DidFailLoadEvent extends Event  {
