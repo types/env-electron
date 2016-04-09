@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/content-tracing.md
+// https://github.com/electron/electron/blob/master/docs/api/content-tracing.md
 
 declare namespace Electron {
 	/**

@@ -28,7 +28,7 @@
 /// <reference path="lib/web-view.d.ts" />
 /// <reference path="lib/window-open.d.ts" />
 
-// https://github.com/atom/electron/blob/master/docs/api/synopsis.md
+// https://github.com/electron/electron/blob/master/docs/api/synopsis.md
 
 declare namespace Electron {
 

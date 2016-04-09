@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/native-image.md
+// https://github.com/electron/electron/blob/master/docs/api/native-image.md
 
 declare namespace Electron {
 	/**

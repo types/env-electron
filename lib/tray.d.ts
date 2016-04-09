@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/tray.md
+// https://github.com/electron/electron/blob/master/docs/api/tray.md
 
 declare namespace Electron {
 	/**

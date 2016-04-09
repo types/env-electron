@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/desktop-capturer.md
+// https://github.com/electron/electron/blob/master/docs/api/desktop-capturer.md
 
 declare namespace Electron {
 	/**

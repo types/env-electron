@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/browser-window.md
+// https://github.com/electron/electron/blob/master/docs/api/browser-window.md
 
 declare namespace Electron {
 	/**

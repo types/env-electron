@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/power-monitor.md
+// https://github.com/electron/electron/blob/master/docs/api/power-monitor.md
 
 declare namespace Electron {
 	/**

@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/global-shortcut.md
+// https://github.com/electron/electron/blob/master/docs/api/global-shortcut.md
 
 declare namespace Electron {
 	/**

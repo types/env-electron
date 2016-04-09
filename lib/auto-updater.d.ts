@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/auto-updater.md
+// https://github.com/electron/electron/blob/master/docs/api/auto-updater.md
 
 declare namespace Electron {
 	/**

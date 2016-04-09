@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/power-save-blocker.md
+// https://github.com/electron/electron/blob/master/docs/api/power-save-blocker.md
 
 declare namespace Electron {
 	/**

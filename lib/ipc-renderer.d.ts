@@ -1,4 +1,4 @@
-// https://github.com/atom/electron/blob/master/docs/api/ipc-renderer.md
+// https://github.com/electron/electron/blob/master/docs/api/ipc-renderer.md
 
 declare namespace Electron {
 	/**
