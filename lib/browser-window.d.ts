@@ -675,6 +675,11 @@ declare namespace Electron {
 		 * Default: ISO-8859-1.
 		 */
 		defaultEncoding?: string;
+		/**
+		 * Whether to throttle animations and timers when the page becomes background.
+		 * Default: true
+		*/
+		backgroundThrottling?: boolean;
 	}
 
 	interface BrowserWindowOptions extends Rectangle {

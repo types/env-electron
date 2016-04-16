@@ -303,7 +303,7 @@ declare namespace Electron {
 		 * Fired when details regarding a requested resource is available.
 		 * status indicates socket connection to download the resource.
 		 */
-		addEventListener(type: 'did-get-response-details', listener: (event: WebViewElement.DidGetResponseRetails) => void, useCapture?: boolean): void;
+		addEventListener(type: 'did-get-response-details', listener: (event: WebViewElement.DidGetResponseDetails) => void, useCapture?: boolean): void;
 		/**
 		 * Fired when a redirect was received while requesting a resource.
 		 */
@@ -432,13 +432,14 @@ declare namespace Electron {
 			errorCode: number;
 			errorDescription: string;
 			validatedURL: string;
+			isMainFrame: boolean;
 		}
 
 		interface DidFrameFinishLoadEvent extends Event  {
 			isMainFrame: boolean;
 		}
 
-		interface DidGetResponseRetails extends Event  {
+		interface DidGetResponseDetails extends Event  {
 			status: boolean;
 			newURL: string;
 			originalURL: string;
@@ -446,6 +447,7 @@ declare namespace Electron {
 			requestMethod: string;
 			referrer: string;
 			headers: any;
+			resourceType: string;
 		}
 
 		interface DidGetRedirectRequestEvent extends Event {
