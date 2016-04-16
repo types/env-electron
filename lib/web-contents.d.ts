@@ -38,7 +38,7 @@ declare namespace Electron {
 			httpResponseCode: number,
 			requestMethod: string,
 			referrer: string,
-			headers: Object,
+			headers: Headers,
 			resourceType: string
 		) => void): this;
 		/**
@@ -51,7 +51,7 @@ declare namespace Electron {
 			httpResponseCode: number,
 			requestMethod: string,
 			referrer: string,
-			headers: Object
+			headers: Headers
 		) => void): this;
 		/**
 		 * Emitted when the document in the given frame is loaded.
@@ -462,6 +462,10 @@ declare namespace Electron {
 		 * @returns Debugger API
 		 */
 		debugger: Debugger;
+	}
+
+	interface Headers {
+		[key: string]: string;
 	}
 
 	type NewWindowDisposition = 'default' | 'foreground-tab' | 'background-tab' | 'new-window' | 'other';

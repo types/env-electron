@@ -446,7 +446,7 @@ declare namespace Electron {
 			httpResponseCode: number;
 			requestMethod: string;
 			referrer: string;
-			headers: Object;
+			headers: Headers;
 			resourceType: string;
 		}
 
@@ -457,7 +457,7 @@ declare namespace Electron {
 			httpResponseCode: number;
 			requestMethod: string;
 			referrer: string;
-			headers: Object;
+			headers: Headers;
 		}
 
 		interface PageTitleUpdatedEvent extends Event {
