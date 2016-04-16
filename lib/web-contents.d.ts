@@ -38,7 +38,7 @@ declare namespace Electron {
 			httpResponseCode: number,
 			requestMethod: string,
 			referrer: string,
-			headers: any,
+			headers: Object,
 			resourceType: string
 		) => void): this;
 		/**
@@ -51,7 +51,7 @@ declare namespace Electron {
 			httpResponseCode: number,
 			requestMethod: string,
 			referrer: string,
-			headers: any
+			headers: Object
 		) => void): this;
 		/**
 		 * Emitted when the document in the given frame is loaded.
@@ -599,7 +599,7 @@ declare namespace Electron {
 		/**
 		 * Coordinates of first match region.
 		 */
-		selectionArea?: any;
+		selectionArea?: Bounds;
 	}
 
 	interface DeviceEmulationParameters {

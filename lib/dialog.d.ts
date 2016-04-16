@@ -41,13 +41,13 @@ declare namespace Electron {
 		 * @param callback If supplied, the API call will be asynchronous.
 		 * @returns The index of the clicked button.
 		 */
-		showMessageBox(browserWindow: BrowserWindow, options: ShowMessageBoxOptions, callback?: (response: any) => void): number;
+		showMessageBox(browserWindow: BrowserWindow, options: ShowMessageBoxOptions, callback?: (response: number) => void): number;
 		/**
 		 * Shows a message box. It will block until the message box is closed.
 		 * @param callback If supplied, the API call will be asynchronous.
 		 * @returns The index of the clicked button.
 		 */
-		showMessageBox(options: ShowMessageBoxOptions, callback?: (response: any) => void): number;
+		showMessageBox(options: ShowMessageBoxOptions, callback?: (response: number) => void): number;
 		/**
 		 * Displays a modal dialog that shows an error message.
 		 *

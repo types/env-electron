@@ -53,7 +53,7 @@ declare namespace Electron {
 		/**
 		 * Resolves the proxy information for url.
 		 */
-		resolveProxy(url: URL, callback: (proxy: any) => any): void;
+		resolveProxy(url: URL, callback: (proxy: string) => void): void;
 		/**
 		 * Sets download saving directory.
 		 * By default, the download directory will be the Downloads under the respective app folder.
@@ -71,7 +71,7 @@ declare namespace Electron {
 		/**
 		 * Sets the certificate verify proc for session.
 		 */
-		setCertificateVerifyProc(proc: CertificateVerifyProc): void;
+		setCertificateVerifyProc(proc: (hostname: string, cert: Certificate, callback: (accepted: boolean) => void) => void): void;
 		/**
 		 * Clears the host resolver cache.
 		 */
@@ -114,10 +114,6 @@ declare namespace Electron {
 		 * Upload rate in Bps.
 		 */
 		uploadThroughput?: number;
-	}
-
-	interface CertificateVerifyProc {
-		(hostname: string, cert: any, callback: (accepted: boolean) => any): any;
 	}
 
 	interface CookieFilter {

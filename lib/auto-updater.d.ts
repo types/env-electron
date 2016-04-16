@@ -36,7 +36,7 @@ declare namespace Electron {
 		 * Ask the server whether there is an update, you have to call setFeedURL
 		 * before using this API
 		 */
-		checkForUpdates(): any;
+		checkForUpdates(): void;
 		/**
 		 * Restarts the app and installs the update after it has been downloaded.
 		 * It should only be called after update-downloaded has been emitted.

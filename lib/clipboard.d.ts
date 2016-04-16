@@ -55,7 +55,7 @@ declare namespace Electron {
 		 * Reads the data in the clipboard of the specified format.
 		 * Note: This API is experimental and could be removed in future.
 		 */
-		read(format: string, type?: ClipboardType): any;
+		read(format: string, type?: ClipboardType): string | NativeImage;
 		/**
 		 * Writes data to the clipboard.
 		 */

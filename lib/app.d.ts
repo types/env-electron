@@ -293,7 +293,7 @@ declare namespace Electron {
 		 *
 		 * Note: This will not affect process.argv.
 		 */
-		appendArgument(value: any): void;
+		appendArgument(value: string): void;
 	}
 
 	interface Dock {

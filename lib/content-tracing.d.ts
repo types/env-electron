@@ -12,7 +12,7 @@ declare namespace Electron {
 		 *
 		 * @param callback Called once all child processes have acknowledged the getCategories request.
 		 */
-		getCategories(callback: (categoryGroups: any[]) => void): void;
+		getCategories(callback: (categoryGroups: string[]) => void): void;
 		/**
 		 * Start recording on all processes. Recording begins immediately locally and asynchronously
 		 * on child processes as soon as they receive the EnableRecording request.

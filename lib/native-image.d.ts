@@ -47,7 +47,7 @@ declare namespace Electron {
 		/**
 		 * @returns {} The size of the image.
 		 */
-		getSize(): any;
+		getSize(): Dimension;
 		/**
 		 * Marks the image as template image.
 		 */

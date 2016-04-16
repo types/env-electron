@@ -11,7 +11,7 @@ declare namespace Electron {
 		 * Note: There is no guarantee that the size of source.thumbnail is always
 		 * the same as the thumnbailSize in options. It also depends on the scale of the screen or window.
 		 */
-		getSources(options: any, callback: (error: Error, sources: DesktopCapturerSource[]) => any): void;
+		getSources(options: DesktopCapturerOptions, callback: (error: Error, sources: DesktopCapturerSource[]) => any): void;
 	}
 
 	interface DesktopCapturerOptions {
