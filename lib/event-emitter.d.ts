@@ -1,6 +1,6 @@
 declare namespace Electron {
-
-	class EventEmitter extends NodeJS.EventEmitter {
+  import { EventEmitter } from "events";
+	class EventEmitter extends EventEmitter {
 	}
 
 	interface Event {
