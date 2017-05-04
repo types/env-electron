@@ -1,4 +1,6 @@
 # Typed Electron
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/env-electron.svg)](https://greenkeeper.io/)
 The type definition for [`electron`](https://github.com/electron/electron)
 
 ## LICENSE
